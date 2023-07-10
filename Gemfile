@@ -73,6 +73,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem 'pry'
 end
 
 group :test do
@@ -81,3 +83,9 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem 'contentful'
+gem 'contentful-management'
+gem 'dotenv-rails', groups: %i[development test]
+gem 'httparty'
+gem 'pry-rails', groups: %i[development test]
