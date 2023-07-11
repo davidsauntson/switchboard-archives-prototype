@@ -89,3 +89,5 @@ gem 'contentful-management'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'httparty'
 gem 'pry-rails', groups: %i[development test]
+
+gem "redcarpet", "~> 3.6"

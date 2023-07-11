@@ -19,6 +19,10 @@ module Contentful
       cda_client.entries(query)
     end
 
+    def fetch(id)
+      cda_client.entry(id)
+    end
+
     private
 
     attr_reader :cda_client

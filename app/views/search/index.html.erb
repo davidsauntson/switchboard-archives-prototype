@@ -1,0 +1,13 @@
+<h1>Search</h1>
+
+<form action="" method="GET">
+  <%= render CitizensAdviceComponents::Search.new(value: query) %>
+</form>
+
+<div>
+  <ul>
+    <% @search_results.each do |result| %>
+      <%= render SearchResultComponent.new(result) %>
+    <% end %>
+  </ul>
+</div>

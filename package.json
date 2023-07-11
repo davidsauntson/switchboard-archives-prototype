@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@citizensadvice/design-system": "^5.5.0-alpha.4"
+  }
+}
