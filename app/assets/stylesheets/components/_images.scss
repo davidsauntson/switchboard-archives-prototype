@@ -1,0 +1,17 @@
+.images__list {
+  display: flex;
+  margin: $cads-spacing-6 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.images__item {
+  width: 33%;
+}
+
+.images__image {
+  max-width: 100%;
+}

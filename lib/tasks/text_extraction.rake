@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../../services/contentful/entry_service'
-require_relative '../../services/contentful/managed_entry_service'
+require_relative '../../app/services/contentful/entry_service'
+require_relative '../../app/services/contentful/managed_entry_service'
 require 'httparty'
 require 'pry'
 

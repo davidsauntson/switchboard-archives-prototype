@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "@citizensadvice/design-system": "^5.5.0-alpha.4"
+    "@citizensadvice/design-system": "^5.5.0-alpha.4",
+    "sass": "^1.63.6"
+  },
+  "scripts": {
+    "build:css": "sass ./app/assets/stylesheets/application.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
   }
 }

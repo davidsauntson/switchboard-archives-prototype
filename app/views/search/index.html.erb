@@ -6,7 +6,7 @@
 
 <div>
   <ul>
-    <% @search_results.each do |result| %>
+    <% @search_results&.each do |result| %>
       <%= render SearchResultComponent.new(result) %>
     <% end %>
   </ul>

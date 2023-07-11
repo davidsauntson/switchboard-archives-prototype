@@ -3,8 +3,6 @@
 <date><%= @entry.date %></date>
 <div><%= @entry.type %></div>
 
-<%= render Item::TextComponent.new(@entry) %>
-
 <%= render Item::LocationComponent.new(@entry) %>
-
 <%= render Item::ImagesComponent.new(@entry) %>
+<%= render Item::TextComponent.new(@entry) %>

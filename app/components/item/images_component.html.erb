@@ -1,8 +1,10 @@
-<ul>
+<ul class="images__list">
   <% image_urls.each do |url| %>
-    <li>
-      <img src="<%= url %>" />
-      <a href="<%= url %>" target="_blank" >View image</a>
+    <li class="images__item">
+      <a href="<%= url %>" target="_blank" >
+        <img class="images__image" src="<%= url %>" />
+        View image
+      </a>
     </li>
   <% end %>
 </ul>

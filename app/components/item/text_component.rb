@@ -10,6 +10,10 @@ class Item::TextComponent < ViewComponent::Base
     @markdown.render(@entry.text)
   end
 
+  def render?
+    @entry.try(:text)
+  end
+
   private
 
   def set_renderer

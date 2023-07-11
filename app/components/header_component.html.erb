@@ -1,0 +1,12 @@
+<%= render CitizensAdviceComponents::Header.new do |c|
+  c.logo(title: "Switchboard Archives", url: "/")
+  c.skip_links([
+    { title: "Skip to navigation", url: "#cads-navigation" },
+    { title: "Skip to main content", url: "#cads-main-content" },
+    { title: "Skip to footer", url: "#cads-footer" }
+  ])
+  c.header_links([
+    { title: "Switchboard LGBT+", url: "https://switchboard.lgbt/"}
+  ])
+  c.search_form(search_action_url: "/search") if show_search?
+end %>

@@ -6,14 +6,14 @@ class Item::LocationComponent < ViewComponent::Base
   end
 
   def section
-    @entry.section_number
+    @entry.try(:section_number)
   end
 
   def box 
-    @entry.box_number
+    @entry.try(:box_number)
   end
 
   def folder
-    @entry.folder_number
+    @entry.try(:folder_number)
   end
 end

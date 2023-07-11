@@ -91,3 +91,5 @@ gem 'httparty'
 gem 'pry-rails', groups: %i[development test]
 
 gem "redcarpet", "~> 3.6"
+
+gem "cssbundling-rails", "~> 1.2"
